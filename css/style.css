@@ -1,7 +1,44 @@
 /* style.css */
 
-
+#sort-menu{
+	text-align: right;
+}
 .apartment-img {
     width: 100%;
     height: auto;
+}
+
+.apartment-result {
+    margin-bottom: 25px;
+}
+
+.apartment-name {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.apartment-price {
+    text-align: right;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.apartment-price:before , .apartment-price:after {
+
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+
+}
+
+.apartment-price:before {
+    content: "from";
+}
+
+.apartment-price:after {
+    content: "USD/Month";
+	display: block;
 }

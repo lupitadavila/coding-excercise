@@ -43,19 +43,13 @@
 			<div id="search-results">
 				<h1>Search Results</h1>
 				<h3>Minneapolis, MN: <span class="apt-total"></span> Apartments</h3>
-				
-				<div class="apartment-result row">
-					<div class="apartment-img-holder col-md-4">
-						<img class="apartment-img" src="images/image-1.jpg"/>
-					</div>
-					<div class="col-md-8">
-						<div class="apartment-name">Test</div>
-						<div class="apartment-address">Test</div>
-						<div class="apartment-price">$444</div>
-						
-					</div>
+				<div id="sort-menu" class="row">
+					<ul class="nav nav-pills pull-right">
+					  <li class="active"><a id="price-btn" href="#" onClick="sortPrice()">Price</a></li>
+					  <li><a id="pop-btn" href="#" onclick="sortPopularity()">Popularity</a></li>
+					</ul>
 				</div>
-			
+				
 			</div>
 			
 			<div id="page-numbers">
