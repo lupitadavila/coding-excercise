@@ -1,0 +1,81 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<!-- Always force latest IE rendering engine (even in intranet) -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Important stuff for SEO, don't neglect. (And don't dupicate values across your site!) -->
+	<title>Search Listings - Student Housing</title>
+	<meta name="author" content="LD" />
+	<meta name="description" content="Student apartment search listings" />
+
+	
+	<!-- Who owns the content of this site? -->
+	<meta name="Copyright" content="Demo" />
+
+	<!--  Mobile Viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- CSS -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!-- JS -->
+	<script type="text/javascript" src="src/data.js"></script>
+
+</head>
+
+<body>
+	<header></header>
+	
+	<div id="main-content">
+		<div class="container">
+			<div id="search-results">
+				<h1>Search Results</h1>
+				<h3>Minneapolis, MN: <span class="apt-total"></span> Apartments</h3>
+				
+				<div class="apartment-result row">
+					<div class="apartment-img-holder col-md-4">
+						<img class="apartment-img" src="images/image-1.jpg"/>
+					</div>
+					<div class="col-md-8">
+						<div class="apartment-name">Test</div>
+						<div class="apartment-address">Test</div>
+						<div class="apartment-price">$444</div>
+						
+					</div>
+				</div>
+			
+			</div>
+			
+			<div id="page-numbers">
+					<ul id="pagination" class="pagination-sm"></ul>
+			</div>
+		
+		</div>
+	
+	</div>
+	
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="src/pagination/jquery.twbsPagination.min.js"></script>
+<script type="text/javascript" src="src/main.js"></script>
+<!--<script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.3.min.js'>\x3C/script>")</script>-->
+
+<!-- this is where we put our custom functions -->
+<!-- don't forget to concatenate and minify for production -->
+
+
+</body>
+</html>
