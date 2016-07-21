@@ -1,16 +1,48 @@
 /* style.css */
+@import 'https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Work+Sans:300,400,700';
+
+body{
+	font-family: "Work Sans", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 28px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Oxygen", sans-serif";
+	font-weight: 300;
+}
+h1{
+	font-weight: 700;
+}
+
+#main-content {
+    background: #e7e7e7;
+}
 
 #sort-menu{
-	text-align: right;
+	margin-bottom: 20px;
+}
+.nav-pills>li>a {
+    border-radius: 0;
+}
+
+
+.apartment-result {
+    margin-bottom: 25px;
+	background: #cfcfcf;
+}
+.apartment-result:hover {
+	background: #fafafa;
+}
+.apartment-info-holder {
+    padding: 20px;
 }
 .apartment-img {
     width: 100%;
     height: auto;
 }
 
-.apartment-result {
-    margin-bottom: 25px;
-}
 
 .apartment-name {
     font-size: 24px;
@@ -24,6 +56,7 @@
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
+	color: #d50739;
 }
 
 .apartment-price:before , .apartment-price:after {
@@ -31,6 +64,7 @@
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 25px;
+	color: #222;
 
 }
 

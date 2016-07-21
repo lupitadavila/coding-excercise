@@ -18,8 +18,8 @@ var data = {
 
         	"name": "416 Lofts",
         	"image": "image-3.jpg",
-        	"price": 460,
-        	"popularity": 3,
+        	"price": 960,
+        	"popularity": 10,
         	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
         },
         {
@@ -66,7 +66,7 @@ var data = {
 
         	"name": "Morning Grove",
         	"image": "image-9.jpg",
-        	"price": 560,
+        	"price": 800,
         	"popularity": 6,
         	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
         },
@@ -75,7 +75,7 @@ var data = {
         	"name": "Westminster Alley",
         	"image": "image-10.jpg",
         	"price": 332,
-        	"popularity": 2,
+        	"popularity": 5,
         	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
         },
         {

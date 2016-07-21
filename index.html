@@ -28,6 +28,7 @@
 
 	<!-- CSS -->
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	 <link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="css/style.css" />
 
 	<!-- JS -->
@@ -45,8 +46,8 @@
 				<h3>Minneapolis, MN: <span class="apt-total"></span> Apartments</h3>
 				<div id="sort-menu" class="row">
 					<ul class="nav nav-pills pull-right">
-					  <li class="active"><a id="price-btn" href="#" onClick="sortPrice()">Price</a></li>
-					  <li><a id="pop-btn" href="#" onclick="sortPopularity()">Popularity</a></li>
+					  <li class="active"><a id="pop-btn" href="#" onclick="sortPopularity()">Popularity</a></li>
+					  <li><a id="price-btn" href="#" onClick="sortPrice()">Price</a></li>
 					</ul>
 				</div>
 				
@@ -63,13 +64,18 @@
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="src/pagination/jquery.twbsPagination.min.js"></script>
+<script type="text/javascript" src="src/parallax.js"></script>
+<script type="text/javascript" src="src/wow.js"></script>
 <script type="text/javascript" src="src/main.js"></script>
 <!--<script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.3.min.js'>\x3C/script>")</script>-->
 
 <!-- this is where we put our custom functions -->
 <!-- don't forget to concatenate and minify for production -->
-
+<script> new WOW().init();
+    
+</script>
 
 </body>
 </html>
